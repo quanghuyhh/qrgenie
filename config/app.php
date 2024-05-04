@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'use_https' => env('USE_HTTPS', false)
+
 ];
